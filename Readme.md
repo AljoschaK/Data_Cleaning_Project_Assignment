@@ -1,9 +1,9 @@
-<h1>Getting and Cleaning Data Course Project<h1>
-<h3>Author: Aljoscha K<h3>
+#Getting and Cleaning Data Course Project
+###Author: Aljoscha K
 
 This readme describes how the data of the project assignment was processed.
 
-<h3>1. Data Origin<h3>
+###1. Data Origin
 This assignment was about the processing of wearable computing data, recorded by
 test persons wearing a smartphone during different activities. The smartphone 
 recorded all movements in x,y and z direction producing multiple measures. 
@@ -12,11 +12,11 @@ The original data can be found at https://d396qusza40orc.cloudfront.net/getdata%
 
 A precise description can be obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-<h3>2. Objective<h3>
+###2. Objective
 The objective was to create a tidy data set which contains only the mean and standard deviation 
 of each measurement and average these measurements for each activity and subject. 
 
-<h3>3. Transformations and Scripts used<h3>
+###3. Transformations and Scripts used
 All transformations were executed within the RScript '<run_analysis.R>'. Input was the unzipped data from the source described in *1. Data Origin*.
 The following steps and transformations were done: 
 1. Specifying the filenames of all files that were read in and written after transformations.
