@@ -107,6 +107,7 @@ The tidy_data_set data frame is written to `<Tidy_Data_Set.csv`> which is stored
 
 ### 7. Original Codebook from the data source website
 
+<pre>
 ===================================================================================================
 Human Activity Recognition Using Smartphones Dataset
 Version 1.0
@@ -189,3 +190,4 @@ Other Related Publications:
 
 ==================================================================================================
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita and Xavier Parra. November 2013.
+</pre>
