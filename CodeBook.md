@@ -90,8 +90,8 @@ The following steps and transformations were done:
 
 * all_data: Data Frame with combined data of training and test data
 
-* mean_and_stdv: Data Frame based on all_data, but filtered by regex to contain only columns of which the name contains either *mean()* or *std()*
-*Note: There are more column names with the word mean but i read the objective to use only columns that are the actual mean and stdev of one measure category. There are more than one solution, I guess. I did not use them on purpose.*
+* mean_and_stdv: Data Frame based on all_data, but filtered by regex to contain only columns of which the name contains either *mean()* or *std()*. 
+*Note: There are more column names with the word mean but I read the task as to use only columns that are the actual mean and stdev of one measure category. There are more than one solution, I guess. I did not use them on purpose.*
 
 * data_with_activity_ID: Data Frame based on mean_and_stdv, but with additional column containing the activity label ID of each row
 
