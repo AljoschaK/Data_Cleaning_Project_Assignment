@@ -99,5 +99,8 @@ The following steps and transformations were done:
 
 * data_with_act_and_sub_desc: Data Frame based on data_with_activity_names but with the subject ID added for each row
 
-* tidy_data_set: Data Frame based on data_with_act_and_sub_desc which is aggregated by the activity name and subject ID. For each it contains the average value of each measure column. 
+* tidy_data_set: Data Frame based on data_with_act_and_sub_desc which is aggregated by the activity name and subject ID. For each it contains the average value of each measure column. This file is used to create the output file.
+
+### Output Created
+The tidy_data_set data frame is written to `<Tidy_Data_Set.csv`> which is stored on GitHub.
 
