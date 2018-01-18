@@ -32,6 +32,6 @@ The following steps and transformations were done:
 ### 4. How to run the script
 1. Download the wearable data from the provided URL
 2. Unpack the data to a directory of your choice
-3. Download the dplyr package and install it in RScript
+3. Download the dplyr package and install it in R.
 4. Change the path provided under `Set working directory` (`setwd`, line 5) of `<run_analysis.R>` to the directory where you unpacked the data. This means that this directory should then contain the main folder `getdata_projectfiles_UCI HAR Dataset`.
 5. Run script `<run_analysis.R>`, the output data will be produced in the set directory. 
