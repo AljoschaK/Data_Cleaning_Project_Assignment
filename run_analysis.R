@@ -27,7 +27,7 @@ test_subjects_path <- "./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/te
 activity_mapping_path <- "./getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt"
 
 # Specify the path to the final output file
-output_path <- "./Tidy_Data_Set.csv"
+output_path <- "./Tidy_Data_Set.txt"
 
 
 ################################################################################
@@ -99,4 +99,4 @@ tidy_data_set <- data_with_act_and_sub_desc %>%
 
 ################################################################################
 # Write tidy data to output file
-write.csv(tidy_data_set, file = output_path)
+write.table(tidy_data_set, file = output_path, row.names = FALSE)

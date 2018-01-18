@@ -27,4 +27,4 @@ The following steps and transformations were done:
 6. Joining activity ID and activity names as addtional columns. 
 7. Adding subject ID as additional column.
 8. Calculate all average values of all data columns for each subject and activity. 
-9. Write calculated values into a new table saved as `<Tidy_Data_Set.csv>`. 
+9. Write calculated values into a new table saved as `<Tidy_Data_Set.txt>`. 

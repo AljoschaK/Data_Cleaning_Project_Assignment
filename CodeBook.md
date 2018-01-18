@@ -54,7 +54,7 @@ The following steps and transformations were done:
 6. Joining activity ID and activity names as addtional columns. 
 7. Adding subject ID as additional column.
 8. Calculate all average values of all data columns for each subject and activity. 
-9. Write calculated values into a new table saved as `<Tidy_Data_Set.csv>`. 
+9. Write calculated values into a new table saved as `<Tidy_Data_Set.txt>`. 
 
 ### 5. Variables and Data created during transformation
 #### Filenames
@@ -70,7 +70,7 @@ The following steps and transformations were done:
 * train_subjects_path: String storing the file location of the subject identifiers
 * test_subjects_path: String storing the file location of the subject identifiers
 
-* output_path: String storing the path to the Tidy_Data_Set.csv output file
+* output_path: String storing the path to the Tidy_Data_Set.txt output file
 
 #### Data Read In
 * train_x: Data Frame where the read in data of the training data is stored
@@ -103,7 +103,7 @@ The following steps and transformations were done:
 * tidy_data_set: Data Frame based on data_with_act_and_sub_desc which is aggregated by the activity name and subject ID. For each it contains the average value of each measure column. This file is used to create the output file.
 
 ### 6. Output Created
-The tidy_data_set data frame is written to `<Tidy_Data_Set.csv`> which is stored on GitHub.
+The tidy_data_set data frame is written to `<Tidy_Data_Set.txt`> which is stored on GitHub.
 
 ### 7. Original Codebook from the data source website
 
